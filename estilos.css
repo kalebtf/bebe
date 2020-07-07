@@ -1,0 +1,161 @@
+
+
+    body {
+      background-image : url(fondoweb.JPG)  ; 
+      padding-bottom: 20px;
+      width:99%
+
+    }
+
+    #mitabla{
+      background-color: #F9FFFF;      
+    }
+
+
+    #contenedor {
+      background-color: #F9FFFF;      
+      width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 0 0;
+      color: #444;      
+      border: 1px solid #D4EEEE;
+      border-radius: 10px;      
+      box-shadow: 10px 10px 15px #999;
+      overflow: hidden;
+    }
+    #fotoPerfil {
+      float: right;
+      margin: 40px 10px 0 0;
+      border-radius: 5px;
+    }
+    #lateral {
+      float: left;      
+      background-color: #444; 
+      width: 60px; 
+      height: 1000px;      
+      margin-right: 20px;  
+      padding-top: 50px;                    
+      border-right: 7px solid #D4EEEE;
+      border-radius: 10px 0 0 10px;
+    }
+    #datos {
+      padding-left: 120px;
+      font-size: 14px;      
+      font-family: "Homer Simpson", cursive;
+    }
+    .contenido {
+      background-color: #fff;
+      margin: 0 0 10px 80px;
+      border-radius: 7px;
+      border: 1px solid #499ec8;
+      font-family: "Tahoma", "Geneva", sans-serif;
+    }
+    h1 {
+      color: #f00;      
+      font-family: fantasy;
+
+      }
+    h2 {
+      color: #cc5b47;      
+      font-family: fantasy;
+    }
+    h3 {
+      background-color: black;  
+      margin-top: 0px;   
+      padding-left: 10px;             
+      color: white;
+      border: 1px solid #499ec8;
+      border-radius: 5px 5px 0 0;
+      font-size: 14px;
+      font-family: "Tahoma", "Geneva", sans-serif;
+    }
+    dt  {
+      margin-left: 30px;
+      color: black;      
+      font-weight: 600;
+    }
+    li {
+      list-style: none;
+    }
+    td {
+      text-align: center;;
+    }     
+    .circle {
+      color: #5BB3DF;      
+      list-style: disc;
+      font-weight: 600;
+    }
+    .ng   {
+      font-weight: 600;
+    }
+    .sangria {
+      margin-left: 15px;
+    }
+    .informatica {
+      float: left;
+      margin: 0 50px 0 20px;
+
+    }
+
+    h4{
+      font-size:950px; 
+      color:#5bb4dc;
+    }
+
+    {
+
+    background-image: url("/images/fondomadera.JPG")
+
+  }
+
+  #caja1
+{
+
+  background:green;
+}
+
+    h2
+    {
+background-color:black;
+
+height:100px;
+width:400px; 
+margin-left:475px;
+margin-bottom:75px;
+
+
+
+border: double; 
+
+
+
+    }
+
+    legend
+    {
+
+      border: double; 
+
+    }
+
+ h6
+{
+
+  height:30px;
+width:60px; 
+margin-left:500px;
+margin-bottom:75px;
+
+background:#ff9900;
+
+border:double #b36b00;
+
+}
+    h1
+    {
+
+background-image:images/fondomadera.JPG;
+
+
+
+    }

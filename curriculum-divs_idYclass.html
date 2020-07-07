@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Currículum</title>
+
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body>
+
+
+<div id="contenedor">
+
+<div id="lateral"><img src="images/lateral.png"/></div>
+
+    <img  id="fotoPerfil" src="imagenes/miFoto.jpg" width="150px" height="150px" title="Pedro Ramos Bravo" alt="esta imagen no es visible"/>
+  
+  <h1>Kaleb Tisnado Castañeda alias ElKeilev</h1>
+
+  <div id="datos">
+
+  	<p><i>Nacido el 21/05/2007 en Tijuana</i><br/>
+  	<a href="https://www.google.es/maps/place/Calle+Arroyo,+Sevilla/@37.396688,-5.9808929,17z/	data=!3m1!4b1!4m5!3m4!1s0xd126ea92bce362d:0xb1c85924e31c25f2!8m2!3d37.3966838!4d-5.9786988">Calle Fuentes altas 33</a><br/>
+  	17190 Salt (<b>Girona</b>)<br/>
+  	España<br/>
+  	<em>micorreo@hotmail.com</em><br/>
+  	Tel: <strong>626-34-35-36</strong></p>
+
+    </div>
+
+    <div class="contenido">
+
+  <h3>EXPERIENCIA PROFESIONAL</h3>
+
+  	<ul>
+      <li class="circle">2000 - 2004</li>
+     	<li class="ng">Red de Internautas S.L - Madrid</li>
+      <li class="sangria">Diseñador web</li>
+      <li class="sangria">Diseñador de contenidos</li>
+ 	  </ul>
+
+  	<ul>
+     	<li class="circle">2004 - 2009</li>
+     	<li class="ng">Art and Desing S.L - Madrid</li>
+      <li class="sangria">Programador web</li>
+      <li class="sangria">Mantenimiento de bases de datos</li>
+      <li class="sangria">Coordinador de sección</li>
+ 	  </ul>
+
+    </div>
+
+    <div class="contenido">
+
+  <h3>FORMACIÓN ACADÉMICA</h3>
+
+  	<ul>
+     	<li class="circle">1983 - 1991</li>
+     	<li class="ng">Graduado escolar</li>
+      <li class="sangria">Escuela la Salle</li>
+ 	  </ul>
+
+  	<ul>
+     	<li class="circle">1991 - 1995</li>
+     	<li class="ng">Bachiller - Ciencias y Tecnología</li>
+      <li class="sangria">Instituto Roberto Maras</li>
+ 	  </ul>
+
+  	<ul>
+     	<li class="circle">1995 - 1997</li>
+     	<li class="ng">Tecnico superior DAW</li>
+      <li class="sangria">Instituto Corte la Llave</li>
+ 	  </ul>
+
+    </div>
+ 
+    <div class="contenido">
+
+  <h3>INFORMACION TECNOLÓGICA</h3>
+
+    <table class="informatica">
+      <tr>
+        <th colspan="3">Informática</th>
+      </tr>
+      <tr>
+        <td><img src="imagenes/ico_windows.png" title="Windows" alt="Icono de Windows"/></td>
+        <td><img src="imagenes/ico_mac.png" title="Mac" alt="Icono de Mac"/></td>
+        <td><img src="imagenes/ico_linux.png" title="Linux" alt="Icono de Linux"/></td>
+      </tr>
+      <tr>
+        <td>Windows</td>
+        <td>Mac</td>
+        <td>Linux</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th colspan="3">Ofimática</th>
+      </tr>
+      <tr>
+        <td><img src="imagenes/ico_word.png" title="Word" alt="Icono de Word"/></td>
+        <td><img src="imagenes/ico_excel.png" title="Excel" alt="Icono de Excel"/></td>
+        <td><img src="imagenes/ico_powerPoint.png" title="PowerPoint" alt="Icono de PowerPoint"/></td>
+      </tr>
+      <tr>
+        <td>Word</td>
+        <td>Excel</td>
+        <td>PPoint</td>
+      </tr>
+    </table>
+
+
+    </div>
+    <div class="contenido">
+
+  <h3>IDIOMAS</h3>
+
+  	<dl>
+     	<dt>Español</dt>
+     		<dd>Nivel avanzado</dd>
+       		<br/>
+     	<dt>Ingles</dt>
+     		<dd>Nivel medio</dd>
+ 	  </dl>
+
+    </div>
+    </div>
+<input type="password" value="-Contraseña-">
+<input type="hidden" name="datosOcultos" value="-Correo Electronico-">
+<input type="reset" value="Borrar">
+<input type="submit" value="enviar">
+<select name=".-Pais-." id="mySelect" onchange="myFunction()">
+  <option value="Narnia">narnia</option>
+  <option value="China">China</option>
+  <option value="Francia">Francia</option>
+  <option value="america :v">America</option>
+  <option value="marte">Marte</option>
+  <option value="Mexicooo">Mexicooo</option>
+  <option value="No lo se">No lo se</option>
+  <option value="no quiero decirlo">no quiero decirlo</option>
+  <option value="No te importa">No te importa</option>
+  <option value="Ok ;v">Ok</option>
+  <option value="Paises" selected="selected">Paises</option>
+</select>
+
+<textarea name="Mensaje" value="vacio" cols="50" rows="10">
+  Escribe un mensaje...
+</textarea>
+
+<p id="demo">Click the button to change the text in this paragraph.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+
+  alert("has elegido " + document.getElementById("mySelect").value);
+}
+</script>
+</body>
+
+</html>
